@@ -1,2 +1,1 @@
-"""ANAS PORTS PRO: a lightweight TCP port scanner for authorized testing."""
-__version__ = "1.0.0"
+__version__ = "1.1.0"

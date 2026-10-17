@@ -4,19 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "anas-ports-pro"
-version = "1.0.0"
-description = "Lightweight TCP port scanner for authorized security testing"
+version = "1.1.0"
+description = "TCP port scanner for authorized security testing"
 readme = "README.md"
 requires-python = ">=3.9"
-license = { file = "LICENSE" }
-authors = [{ name = "Anas Khshan" }]
-keywords = ["network-security", "tcp", "port-scanner", "kali-linux"]
-classifiers = [
-  "Programming Language :: Python :: 3",
-  "Operating System :: OS Independent",
-  "Topic :: Security",
-  "Topic :: System :: Networking",
-]
+license = {file = "LICENSE"}
+authors = [{name = "Anas Khshan"}]
 
 [project.scripts]
 anas-ports = "anas_ports.cli:main"
